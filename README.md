@@ -44,16 +44,13 @@ docs/ 아래 문서들 dadeum 적용해줘
 
 ## 예시
 
-각 예시는 `.diff` 파일입니다. 앞머리에 어떤 규칙이 어느 구간을 고쳤는지 적어 두었고,
-그 아래에 원문과 개선본의 차이를 붙였습니다.
-
 앞의 두 개는 실제 사용 기록입니다. 원문과 개선본 모두 공개 저장소의 git 이력에서
 확인할 수 있습니다. 나머지 세 개는 적용 범위를 보이려고 새로 만든 재현 예시입니다.
 
 | | 문서 | 다룬 문제 |
 | --- | --- | --- |
-| [1](examples/01-readme-template-fe.diff) | 리드미 (실사용) | 비ASCII 문장부호, 비유적 어휘, 음차된 기술 용어, 들쭉날쭉한 강조 |
-| [2](examples/02-readme-gh-todoist-sync.diff) | 리드미 (실사용) | 구어체 서술, 1인칭 시점, 접속 관계 미표시 |
+| [1](examples/01-readme-template-fe.diff) | 리드미 ([실사용](https://github.com/rhseung/template-fe/commit/67b8875)) | 비ASCII 문장부호, 비유적 어휘, 음차된 기술 용어, 들쭉날쭉한 강조 |
+| [2](examples/02-readme-gh-todoist-sync.diff) | 리드미 ([실사용](https://github.com/rhseung/gh-todoist-sync/commit/79cf734)) | 구어체 서술, 1인칭 시점, 접속 관계 미표시 |
 | [3](examples/03-prd.diff) | 기획 문서 | 명사구 종결, `~의` 남용, 음차 어휘 |
 | [4](examples/04-report.diff) | 분석 리포트 | 피동 남용, 번역투, 사라진 주어 |
 | [5](examples/05-blog.diff) | 블로그 글 | 비유 남발. 명령형과 문체는 그대로 두는 사례 |
