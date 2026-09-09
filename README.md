@@ -39,7 +39,7 @@ docs/ 아래 문서들 dadeum 적용해줘
 수 없으면 그 문장은 그대로 두고 어느 문장이었는지 알립니다. 변경량이 원문의 절반을
 넘어가면 문체 교정의 범위를 벗어난 것으로 보고 작업을 멈춥니다.
 
-전체 규칙은 [`dadeum/skills/dadeum/SKILL.md`](dadeum/skills/dadeum/SKILL.md) 에 있습니다.
+전체 규칙은 [`skills/dadeum/SKILL.md`](skills/dadeum/SKILL.md) 에 있습니다.
 외부 파일에 의존하지 않으므로 이 파일 하나만 읽으면 됩니다.
 
 ## 예시

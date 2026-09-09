@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "dadeum",
-      "source": "./dadeum",
+      "source": "./",
       "description": "Rewrite AI-written Korean documents into clear, consistent prose"
     }
   ]
