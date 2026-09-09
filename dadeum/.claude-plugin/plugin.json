@@ -1,0 +1,18 @@
+{
+  "name": "dadeum",
+  "version": "1.0.0",
+  "description": "AI 가 쓴 한국어 문서를 뜻이 분명한 문장으로 다시 쓰는 스킬. 생략된 문장 성분을 복원하고, 비유적 어휘를 걷어내고, 기술 용어를 원어로 되돌리고, 비ASCII 문장부호를 정리한다.",
+  "author": {
+    "name": "rhseung",
+    "url": "https://github.com/rhseung"
+  },
+  "repository": "https://github.com/rhseung/dadeum",
+  "keywords": [
+    "korean",
+    "한국어",
+    "skill",
+    "writing",
+    "documentation",
+    "ai-generated"
+  ]
+}

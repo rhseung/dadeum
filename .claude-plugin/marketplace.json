@@ -1,0 +1,13 @@
+{
+  "name": "rhseung",
+  "owner": {
+    "name": "Hyunseung Ryu"
+  },
+  "plugins": [
+    {
+      "name": "dadeum",
+      "source": "./dadeum",
+      "description": "Rewrite AI-written Korean documents into clear, consistent prose"
+    }
+  ]
+}
