@@ -1,6 +1,6 @@
 # dadeum
 
-AI 가 쓴 한국어 문서를 뜻이 분명한 문장으로 다시 쓰는 Claude Code 스킬입니다.
+AI가 쓴 한국어 문서를 뜻이 분명한 문장으로 다시 쓰는 Claude Code 스킬입니다.
 
 생략된 문장 성분을 되살리고, 조사와 어미를 채우고, 비유적 어휘를 일반 어휘로 바꾸고,
 터미널에서 정렬을 깨뜨리는 비ASCII 문장부호를 정리합니다. 사실과 수치, 주장, 서술
@@ -19,11 +19,11 @@ claude plugin install dadeum@rhseung
 
 ```
 README.md 다듬어줘
-이 PRD 에서 AI 말투 좀 없애줘
+이 PRD에서 AI 말투 좀 없애줘
 docs/ 아래 문서들 dadeum 적용해줘
 ```
 
-파일을 고칠 때에는 먼저 원본을 확보한 뒤에 수정하고, `git diff` 로 결과를 보여줍니다.
+파일을 고칠 때에는 먼저 원본을 확보한 뒤에 수정하고, `git diff`로 결과를 보여줍니다.
 
 ## 규칙
 
@@ -39,7 +39,7 @@ docs/ 아래 문서들 dadeum 적용해줘
 수 없으면 그 문장은 그대로 두고 어느 문장이었는지 알립니다. 변경량이 원문의 절반을
 넘어가면 문체 교정의 범위를 벗어난 것으로 보고 작업을 멈춥니다.
 
-전체 규칙은 [`skills/dadeum/SKILL.md`](skills/dadeum/SKILL.md) 에 있습니다.
+전체 규칙은 [`skills/dadeum/SKILL.md`](skills/dadeum/SKILL.md)에 있습니다.
 외부 파일에 의존하지 않으므로 이 파일 하나만 읽으면 됩니다.
 
 ## 예시
@@ -49,8 +49,8 @@ docs/ 아래 문서들 dadeum 적용해줘
 
 | | 문서 | 다룬 문제 |
 | --- | --- | --- |
-| [1](examples/01-readme-template-fe.diff) | 리드미 ([실사용](https://github.com/rhseung/template-fe/commit/67b8875)) | 비ASCII 문장부호, 비유적 어휘, 음차된 기술 용어, 들쭉날쭉한 강조 |
-| [2](examples/02-readme-gh-todoist-sync.diff) | 리드미 ([실사용](https://github.com/rhseung/gh-todoist-sync/commit/79cf734)) | 구어체 서술, 1인칭 시점, 접속 관계 미표시 |
+| [1](examples/01-readme-template-fe.diff) | 리드미 ([실사용](https://github.com/rhseung/template-fe/commits/main/README.md)) | 비ASCII 문장부호, 비유적 어휘, 음차된 기술 용어, 들쭉날쭉한 강조 |
+| [2](examples/02-readme-gh-todoist-sync.diff) | 리드미 ([실사용](https://github.com/rhseung/gh-todoist-sync/commits/main/README.md)) | 구어체 서술, 1인칭 시점, 접속 관계 미표시 |
 | [3](examples/03-prd.diff) | 기획 문서 | 명사구 종결, `~의` 남용, 음차 어휘 |
 | [4](examples/04-report.diff) | 분석 리포트 | 피동 남용, 번역투, 사라진 주어 |
 | [5](examples/05-blog.diff) | 블로그 글 | 비유 남발. 명령형과 문체는 그대로 두는 사례 |
